@@ -196,6 +196,7 @@ function home() {
       </div>
       <div className="mx-4 rounded-xl overflow-hidden h-36">
         <Carousel
+        placeholder={undefined}
           className="dropshadow-lg z-0"
           navigation={({ setActiveIndex, activeIndex, length }) => (
             <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
